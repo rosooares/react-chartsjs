@@ -1,0 +1,25 @@
+.navbar {
+    padding: 15px;
+    background-color: #2477b4;
+    color: #fff;
+    text-align: left;
+    font-weight: bolder;
+    height: 100%;
+}
+
+.logo {
+    margin: 0;
+}
+
+.item{
+    position: relative;
+    width: 108px;
+    height: 88px;
+    background: #20437C;
+    border: 1px solid #fff;
+}
+
+.menu_item{
+    color: #fff;
+    text-decoration: none;
+}

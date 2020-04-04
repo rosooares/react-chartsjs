@@ -1,0 +1,9 @@
+.header {
+  padding: 24px;
+}
+
+.root{
+  flex-grow: 1;
+  padding: 24px;
+  justify-content: space-between;
+}
