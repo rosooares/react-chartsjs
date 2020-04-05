@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
-// import Link from 'next/link';
+import { Link } from 'react-router-dom'
 
 import '../css/Header.css';
 
-
 class Header extends Component {
   render() {
-    return  (
+    return (
       <nav className="navbar">
         <h3 className="logo">Logo</h3>
-        {/* <Link href="/App" className="item">
-          <a href="/App" className="menu_item">Pagina 1</a>
-        </Link>
-        <Link href="/page2">
-          <a href="/page2" className="menu_item">Pagina 2</a>
-        </Link> */}
+        <div className="item">
+          <Link to="/" className="menu_item">Pagina 1</Link>
+          <Link to="/page2" className="menu_item">Pagina 2</Link>
+        </div>
       </nav>
     );
   }

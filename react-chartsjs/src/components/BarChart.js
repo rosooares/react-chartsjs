@@ -1,9 +1,7 @@
 import React from 'react';
 import { Typography } from '@material-ui/core'
 import { Bar } from 'react-chartjs-2';
-
 import '../css/BarChart.css';
-
 
 function BarChart({ anualResult }) {
     const labels = anualResult.length > 0 && anualResult.map(i => i.label.substr(0,3));

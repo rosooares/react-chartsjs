@@ -5,7 +5,6 @@ import { Pie } from 'react-chartjs-2';
 function PieChart({ anualPercentage }) {
     const labels = anualPercentage.length > 0 && anualPercentage.map(i => i.label);
     const data = anualPercentage.length > 0 && anualPercentage.map(i => i.value);
-
     const pieChartData = {
         labels: labels,
         datasets: [{
